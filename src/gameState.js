@@ -5,6 +5,9 @@ const gameState = {
     this.clock++
     console.log(this.clock)
     return this.clock
+  },
+  handleUserActions (icon) {
+    console.log(icon)
   }
 }
 
